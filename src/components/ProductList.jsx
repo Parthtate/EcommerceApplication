@@ -1,8 +1,9 @@
-// ProductList.jsx
 import React, { useState, useEffect } from "react";
 import { Grid, Container } from "@mui/material";
+import axios from "axios";
 import ProductCard from "./ProductCard";
 import ProductDetailModal from "./ProductDetailModal";
+import conf from "../conf/api.js";
 
 function ProductListPage({ onAddToCart }) {
   const [products, setProducts] = useState([]);
@@ -10,9 +11,12 @@ function ProductListPage({ onAddToCart }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
-      .then(res => res.json())
-      .then(data => setProducts(data));
+    axios
+      .get(conf.productApiToken)
+      .then((response) => setProducts(response.data))
+      .catch((error) => {
+        console.error("Error fetching products:", error);
+      });
   }, []);
 
   const handleViewDetails = (product) => {
