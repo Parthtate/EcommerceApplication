@@ -60,5 +60,5 @@ To run the project locally:
 This project is open-source and available under the MIT License.
 
 🙌 Acknowledgements
-  Fake Store API
-  Material UI
+  1. Fake Store API
+  2. Material UI
