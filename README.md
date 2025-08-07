@@ -1,4 +1,4 @@
-# 🛒 Mini E-Commerce Product Listing App
+i# 🛒 Mini E-Commerce Product Listing App
 
 A simple and responsive e-commerce frontend application built using **React**, **Material UI (MUI)**, and **Axios**. This app fetches and displays products from a public API and allows users to view detailed information about each product. Deployed live on **Netlify**.
 
@@ -62,9 +62,3 @@ This project is open-source and available under the MIT License.
 🙌 Acknowledgements
   Fake Store API
   Material UI
-
-
-
-
-   git clone https://github.com/your-username/mini-ecommerce-app.git
-   cd mini-ecommerce-app
