@@ -1,14 +1,14 @@
-i# 🛒 Mini E-Commerce Product Listing App
+i# Mini E-Commerce Product Listing App
 
 A simple and responsive e-commerce frontend application built using **React**, **Material UI (MUI)**, and **Axios**. This app fetches and displays products from a public API and allows users to view detailed information about each product. Deployed live on **Netlify**.
 
-🔗 **Live Demo**: [https://mini-eco.netlify.app/](https://mini-eco.netlify.app/)
+ **Live Demo**: [https://mini-eco.netlify.app/](https://mini-eco.netlify.app/)
 
 ---
 
-## 📌 Features
+##  Features
 
-### ✅ Completed
+### Completed
 - **Product Listing Page**  
   - Fetches products from a public API using Axios  
   - Displays product image, title, and price  
@@ -22,7 +22,7 @@ A simple and responsive e-commerce frontend application built using **React**, *
   - Built with Material UI components like `Card`, `Grid`, `AppBar`, `Drawer`, `Typography`, and `Button`  
   - Fully responsive layout for desktop and mobile
 
-### 🚧 In Progress / Planned
+###  In Progress / Planned
 - **Cart Functionality**  
   - Add to Cart  
   - Cart sidebar or section  
@@ -31,7 +31,7 @@ A simple and responsive e-commerce frontend application built using **React**, *
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - [React](https://reactjs.org/) — Functional components and hooks (`useState`, `useEffect`)
 - [Axios](https://axios-http.com/) — For API calls
@@ -41,7 +41,7 @@ A simple and responsive e-commerce frontend application built using **React**, *
 
 ---
 
-## 🧩 Getting Started Locally
+##  Getting Started Locally
 
 To run the project locally:
 
@@ -56,7 +56,7 @@ To run the project locally:
 3. Start the development server:
   ```npm start```
 
-📄 License
+ License
 This project is open-source and available under the MIT License.
 
 🙌 Acknowledgements
